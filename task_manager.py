@@ -23,7 +23,6 @@ class Task:
             'created_at': self.created_at
         }
     
-    # Think of it as a regular function that just happens to live inside the class namespace because its conceptually related to that class.
     @staticmethod
     def from_dict(data):
         task = Task(
